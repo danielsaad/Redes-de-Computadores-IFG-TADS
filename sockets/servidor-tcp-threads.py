@@ -13,7 +13,7 @@ def conectado(con, cliente):
 
     print ("Finalizando conexao do cliente", cliente)
     con.close()
-    thread.exit()
+    _thread.exit()
 
 tcp = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
